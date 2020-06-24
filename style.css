@@ -110,3 +110,59 @@ ul, li {
 	background: #fff;
     color: #000;
 }
+
+.about h2{
+font-size: 50px;
+text-transform: uppercase;
+color: #000000;
+margin-top:113px;
+margin-bottom:58px;
+}
+
+.description {
+    display:flex;
+    justify-content: space-between;
+}
+
+.desc-left, .desc-right {
+	width: 567px;
+}
+
+.description h3 {
+    font-size: 25px;
+    color:#000000;
+    margin-bottom:28px;
+}
+
+.description p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+}
+
+.gallery {
+    display:flex;
+    justify-content: space-between;
+    margin-top:67px;
+}
+
+.gallery img {
+	transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	transform: scale(1.1);
+}
+
+.footer-text {
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	padding: 114px 0
+}
+
+.footer-text p {
+	margin-right: 67px;
+}
